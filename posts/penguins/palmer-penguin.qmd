@@ -3,6 +3,7 @@ title: "Palmer Penguin Data 분석"
 author: "민채"
 date: "2025-03-06"
 categories: [analysis]
+image: "images.png"
 ---
 
 <br>
