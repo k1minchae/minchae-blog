@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "first-blog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/k1minchae
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+execute:
+  warning: false
+  freeze: auto
