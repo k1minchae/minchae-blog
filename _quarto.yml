@@ -12,8 +12,8 @@ website:
 format:
   html:
     theme:
-      light: flatly
-      dark: cyborg
+      light: minty
+      dark: darkly
     css: styles.css
     # include-after-body: darkmode.js
 
