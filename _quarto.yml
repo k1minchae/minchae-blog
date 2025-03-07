@@ -17,4 +17,4 @@ format:
     css: styles.css
 execute:
   warning: false
-  freeze: auto
+  freeze: true
