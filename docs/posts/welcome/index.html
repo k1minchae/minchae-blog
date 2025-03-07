@@ -41,8 +41,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f3c2ea88cadbcfb37ba28ffa2c97cfc1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-8aa8884591a9136173b71f6048871fae.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-bd8cb2610f6c2810c4bc87234a365cf8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-ae2d0dcda2edce4ab590422bb373b64f.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -159,54 +159,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
-document.addEventListener("DOMContentLoaded", function () {
-
-  const toggleButton = document.getElementById("dark-mode-toggle");
-
-
-
-  if (!toggleButton) {
-
-    console.error("❌ 다크 모드 버튼을 찾을 수 없습니다!");
-
-    return;
-
-  }
-
-
-
-  // 저장된 테마 불러오기
-
-  const currentTheme = localStorage.getItem("theme") || "light";
-
-  document.documentElement.setAttribute("data-bs-theme", currentTheme);
-
-
-
-  toggleButton.addEventListener("click", function () {
-
-    let theme = document.documentElement.getAttribute("data-bs-theme");
-
-
-
-    if (theme === "dark") {
-
-      document.documentElement.setAttribute("data-bs-theme", "light");
-
-      localStorage.setItem("theme", "light");
-
-    } else {
-
-      document.documentElement.setAttribute("data-bs-theme", "dark");
-
-      localStorage.setItem("theme", "dark");
-
-    }
-
-  });
-
-});
-
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
