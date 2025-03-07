@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Minchae-blog",
-    "section": "",
-    "text": "Palmer Penguin Data 분석\n\n\n\n\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\n민채\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 3, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "파이썬 코드\n\nimport numpy as np\n\na = np.arange(10)\na\n\narray([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "LS 빅데이터 스쿨에서 데이터 분석을 배우고 있습니다."
-  },
-  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
@@ -68,5 +47,26 @@
     "title": "Palmer Penguin Data 분석",
     "section": "각 종별 평균 수치 구하기",
     "text": "각 종별 평균 수치 구하기\n\n\n\n\n몸무게\n날개 길이\n부리 길이\n부리 깊이\n\n\n\n\n1등\nGentoo\nGentoo\n-\n-\n\n\n2등\n-\nChinstrap\n-\n-\n\n\n3등\n-\nAdelie\nAdelie\nGentoo\n\n\n\n\n수컷 펭귄이 암컷 펭귄보다 부리 길이, 부리 깊이, 날개 길이, 몸무게가 큰 경향이 있다.\n\n\n#| echo: false 를 하면 코드는 문서에 들어가지 않고 결과만 나온다. #| code-fold: true 를 하면 코드가 접혀있다.\n\n\n\n\n\n\n\n\n\n\n부리 길이\n부리 깊이\n날개 길이\n몸무게\n\n\n종\n성별\n\n\n\n\n\n\n\n\nAdelie\nfemale\n37.26\n17.62\n187.79\n3368.84\n\n\nmale\n40.39\n19.07\n192.41\n4043.49\n\n\nChinstrap\nfemale\n46.57\n17.59\n191.74\n3527.21\n\n\nmale\n51.09\n19.25\n199.91\n3938.97\n\n\nGentoo\nfemale\n45.56\n14.24\n212.71\n4679.74\n\n\nmale\n49.47\n15.72\n221.54\n5484.84"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "LS 빅데이터 스쿨에서 데이터 분석을 배우고 있습니다."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Minchae-blog",
+    "section": "",
+    "text": "🌙 다크 모드\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPalmer Penguin Data 분석\n\n\n\n\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\n민채\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 6, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 3, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "파이썬 코드\n\nimport numpy as np\n\na = np.arange(10)\na\n\narray([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])"
   }
 ]

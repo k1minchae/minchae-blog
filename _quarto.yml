@@ -12,9 +12,11 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: flatly
+      dark: cyborg
     css: styles.css
+    # include-after-body: darkmode.js
+
 execute:
   warning: false
   freeze: true
